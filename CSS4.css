@@ -1,0 +1,237 @@
+#container1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 50px 600px 600px 600px 50px;
+    grid-template-areas: "box box"
+                         "box1 box2"
+                         "box3 box4"
+                         "box5 box6"
+                         "box7 box7";
+    grid-gap: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+img{
+    text-align: center;
+}
+
+#box {
+    grid-area: box;
+    text-align: center;
+
+
+}
+
+.alinhar{
+    text-align: center;
+}
+
+#box1 {
+    grid-area: box1;
+
+}
+
+#box2 {
+    grid-area: box2 ;
+
+}
+
+#box3 {
+    grid-area: box3;
+
+}
+
+#box4 {
+    grid-area: box4;
+
+}
+
+#box5 {
+    grid-area: box5;
+
+}
+
+#box6 {
+    grid-area: box6;
+
+}
+
+#box7 {
+    grid-area: box7;
+}
+
+
+
+
+
+
+.titulo1 {
+    text-align: center;
+    font-size: 45px;
+    color: white;
+}
+
+.texto {
+    font-size: 20px;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.imgPrincipal {
+    width: 400px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+}
+
+.img2 {
+    text-align: center;
+    height: 350px;
+    width: 300px;
+}
+
+.img3 {
+text-align: center;
+    height: 350px;
+    width: 550px;
+}
+
+.img4 {
+    height: 350px;
+    width: 450px;
+}
+
+.botao {
+    font-size: 20px;
+    margin-top: 40px;
+    background-color: white;
+    float: left;
+    text-align: center;
+    margin-right: 40px;
+}
+
+.botao1 {
+    width: 120px;
+    height: 35px;
+}
+
+.botao2 {
+    width: 120px;
+    height: 35px;
+}
+
+.bot{
+    margin-top: -20px;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+}
+
+p {
+    color: white;
+    text-align: justify;
+}
+
+body {
+    background-color: rgb(56, 56, 56);
+}
+
+
+
+
+
+
+
+#container2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50px 400px 400px 60px;
+    grid-template-areas: "area1 area1 area1"
+                         "area2 area3 area4"
+                         "area5 area6 area7"
+                         "area area area";
+    grid-gap: 60px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#area1 {
+    grid-area: area1;
+    text-align: center;
+}
+
+#area2 {
+    grid-area: area2;
+
+}
+
+#area3 {
+    grid-area: area3 ;
+
+}
+
+#area4 {
+    grid-area: area4;
+
+}
+
+#area5 {
+    grid-area: area5;
+
+}
+
+#area6 {
+    grid-area: area6;
+
+}
+
+#area7 {
+    grid-area: area7;
+
+}
+
+#area {
+    grid-area: area;
+}
+
+
+
+
+
+
+
+
+
+
+#container3 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 50px 550px 50px;
+    grid-template-areas: "caixa1 caixa1"
+                         "caixa2 caixa3";
+    grid-gap: 50px;
+}
+
+#caixa1 {
+    grid-area: caixa1;
+    text-align: center;
+
+
+}
+
+#caixa2 {
+    grid-area: caixa2;
+    margin-left: 50px;
+
+}
+
+#caixa3 {
+    grid-area: caixa3;
+    margin-right: 50px;
+
+}
